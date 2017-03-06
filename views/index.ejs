@@ -9,6 +9,9 @@
         margin: 40px auto; 
         padding: 10px;
       }
+      img{
+        max-width: 250px;
+      }
     </style>
   </head>
   <body>
@@ -16,6 +19,7 @@
     <p>Welcome to <%= title %></p>
     <button id="openLock">Login</button>
     <button id="signInGoogle">SignIn with Google</button>
+    <button id="signInFacebook">SignIn with Facebook</button>
     <button id="usernameAndPasswordLogin">Username and password authentication</button>
 
     <script src="https://cdn.auth0.com/js/lock/10.12.1/lock.min.js"></script>
@@ -42,29 +46,31 @@
             auth0.signin({
               connection:'Username-Password-Authentication',
               username:"gkjha009@gmail.com",
-              password:"gk155@009"
+              password:""
             })
           };
 
+          var signInFacebook = function(){
+            auth0.signin({
+              connection:"facebook"
+            })
+          };
 
           var createLock = function(){
-              var lock = new Auth0Lock(env.AUTH0_CLIENT_ID, env.AUTH0_DOMAIN, { auth: {
+              var lock = new Auth0Lock( env.AUTH0_CLIENT_ID, env.AUTH0_DOMAIN, { auth: {
                     redirectUrl: env.AUTH0_CALLBACK_URL, 
                     responseType: 'code', 
-                    params: {
-                      scope: 'openid name email picture'
-                    }
+                    params: { scope: "openid birthdate profile user_metadata app_metadata" }
                   }
               });
 
               lock.show();
           };
 
-
-
           document.querySelector("#openLock").addEventListener("click", createLock, false);
           document.querySelector("#usernameAndPasswordLogin").addEventListener("click", userNameAndPasswordLogin, false);
           document.querySelector("#signInGoogle").addEventListener("click", signInGoogle, false );
+          document.querySelector("#signInFacebook").addEventListener("click", signInFacebook, false );
 
       }());
     </script>

@@ -10,3 +10,12 @@ https://manage.auth0.com/
 	passport-auth0
 // Simple auxilary middleware to ensure the user is authenticated
 	connect-ensure-login
+
+
+https://auth0.com/learn/social-login/
+https://conversionxl.com/social-login/
+https://auth0.com/docs/user-profile
+https://auth0.com/docs/libraries/lock/v9/ui-customization
+http://stackoverflow.com/questions/19612357/retrieving-date-of-birth-and-marital-status-with-google-oauth-api
+https://auth0.com/learn/powering-user-analytics-identity/
+https://auth0.com/forum/t/best-way-to-get-profile-data-on-nodejs-server/2689
