@@ -1,0 +1,12 @@
+// 
+
+
+
+
+https://manage.auth0.com/
+// Authentication middleware
+	passport
+// Auth0 strategy for Passport.js
+	passport-auth0
+// Simple auxilary middleware to ensure the user is authenticated
+	connect-ensure-login
