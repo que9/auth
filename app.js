@@ -70,7 +70,10 @@ app.use( passport.session() );
 app.use( express.static(path.join(__dirname, 'public')) );
 
 //-- Serving bootstrap stuff
-app.use( '/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')))
+app.use( '/bootstrap',    express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
+app.use( '/font-awesome', express.static(path.join(__dirname, 'node_modules/font-awesome/css')));
+app.use( '/fonts', express.static(path.join(__dirname, 'node_modules/font-awesome/fonts')));
+
 app.use('/', routes);
 app.use('/user', user);
 

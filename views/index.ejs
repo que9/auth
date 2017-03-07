@@ -4,6 +4,8 @@
     <title><%= title %></title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" type="text/css" href="font-awesome/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/social.css">
   </head>
   <body>
     <div class="container">
@@ -17,9 +19,21 @@
             An application that allows you to authenticate without going through boring long registration process
           </p>
           <p>
-            <button class="btn btn-success" id="openLock">Login</button>
-            <button class="btn btn-success" id="signInGoogle">SignIn with Google</button>
-            <button class="btn btn-success" id="signInFacebook">SignIn with Facebook</button>
+            <button class="btn btn-success" id="openLock">Auth0 LockWidget</button>
+            <div>
+              <button class="btn btn-social btn-google" id="signInGoogle">
+                <span class="fa fa-google"></span>Google
+              </button>
+              <button class="btn btn-social btn-github" id="signInGithub">
+                <span class="fa fa-github"></span>Github
+              </button>
+              <button class="btn btn-social btn-twitter" id="signInTwitter">
+                <span class="fa fa-twitter"></span>Twitter
+              </button>
+              <button class="btn btn-social btn-facebook"" id="signInFacebook">
+                <span class="fa fa-facebook"></span>Facebook
+              </button>
+            </div>            
           </p>
       </div>
 
@@ -35,9 +49,7 @@
     <script src="https://cdn.auth0.com/w2/auth0-7.6.1.min.js"></script>
     <script type="text/javascript">
       (function(){
-
           var env = JSON.parse('<%- env %>');
-          console.info( env );
 
           var auth0 = new Auth0({
             domain: env.AUTH0_DOMAIN,
@@ -46,9 +58,11 @@
           });
 
           var signInGoogle = function(){
-            auth0.signin({
-              connection:'google-oauth2'              
-            })
+            auth0.signin({connection:'google-oauth2'}); 
+          };
+
+          var signInGoogle = function(){
+            auth0.signin({connection:'twitter'}); 
           };
 
 
@@ -61,9 +75,7 @@
           };
 
           var signInFacebook = function(){
-            auth0.signin({
-              connection:"facebook"
-            })
+            auth0.signin({ connection:"facebook" })
           };
 
           var createLock = function(){

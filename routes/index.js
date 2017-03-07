@@ -16,13 +16,6 @@ router.get('/', function(req, res) {
 });
 
 
-// Rendering the login template
-// router.get("/login", function(req, res){
-// 	console.info('/login', JSON.stringify(env));
-// 	res.render("login", {title:"Login Page", env:JSON.stringify(env)});
-// });
-
-
 // Performing session logout and redirect to homepage
 router.get("/logout", function(req, res){
 	req.logout();
