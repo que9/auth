@@ -6,3 +6,6 @@ body {
 a {
   color: #00B7FF;
 }
+
+#root{ width: 280px;  margin: 40px auto;  padding: 10px; }
+img{ max-width: 250px; }

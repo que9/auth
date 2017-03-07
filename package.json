@@ -2,12 +2,13 @@
   "name": "auth",
   "version": "0.0.1",
   "private": true,
-  "repository":"https://github.com/que9/auth",
+  "repository": "https://github.com/que9/auth",
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.0.0",
+    "bootstrap": "^4.0.0-alpha.5",
     "connect-ensure-login": "^0.1.1",
     "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",

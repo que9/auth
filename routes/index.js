@@ -7,7 +7,7 @@ console.info("process.env", "AUTH0_CLIENT_ID" in process.env );
 var env = {
   AUTH0_CLIENT_ID: 		process.env.AUTH0_CLIENT_ID,
   AUTH0_DOMAIN: 		process.env.AUTH0_DOMAIN,
-  AUTH0_CALLBACK_URL: 	process.env.AUTH0_CALLBACK_URL || 'http://localhost:8080/callback'
+  AUTH0_CALLBACK_URL: 	process.env.METHOD+'://'+process.env.HOST+':'+process.env.PORT+'/callback'
 };
 
 /* GET home page. */
@@ -25,7 +25,6 @@ router.get('/', function(req, res) {
 
 // Performing session logout and redirect to homepage
 router.get("/logout", function(req, res){
-	console.info("logout" );
 	req.logout();
 	res.redirect("/");
 });
