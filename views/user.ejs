@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>User</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />    
-  </head>
-  <body>
-    <img src="<%= user.picture %>"></img>
-    <h2>Welcome <%= user.nickname %></h2> <a href="/logout">Logout</a>
-    <br/>
+<%- include partials/header.ejs %>
+  <img src="<%= user.picture %>"></img>
+  <h2>Welcome <i><%= user.nickname %></h2></i> <a  class="btn btn-primary" href="/logout">Logout</a>
+    
+  <br/><br/>
+  <h2>User profile</h2>
+  <pre>
+    <%= JSON.stringify(user) %>
+  </pre>
+  <pre>
+  	<%= userProfile %>
+  </pre>
+  <br/>
 
-    <h2>User profile</h2>
-    <pre>
-    	<%= userProfile %>
-    </pre>
-    <br/>    
   </body>
 </html>

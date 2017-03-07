@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel="stylesheet" type="text/css" href="font-awesome/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/social.css">
-  </head>
-  <body>
+<%- include partials/header.ejs %>
     <div class="container">
       <div class="header clearfix">
         <h3><img src="images/blackRock.png" alt="BlackRock Logo" /></h3>
@@ -36,10 +27,7 @@
             </div>            
           </p>
       </div>
-
-      <footer class="footer">
-        <p>&copy; BlackRock</p>
-      </footer>
+    <%- include partials/footer.ejs %>      
     </div> 
     <!-- /container -->
 
@@ -61,8 +49,11 @@
             auth0.signin({connection:'google-oauth2'}); 
           };
 
-          var signInGoogle = function(){
+          var signInTwitter = function(){
             auth0.signin({connection:'twitter'}); 
+          };
+          var signInGithub = function(){
+            auth0.signin({connection:'github'}); 
           };
 
 
@@ -91,6 +82,8 @@
 
           document.querySelector("#openLock").addEventListener("click", createLock, false);          
           document.querySelector("#signInGoogle").addEventListener("click", signInGoogle, false );
+          document.querySelector("#signInTwitter").addEventListener("click", signInTwitter, false );
+          document.querySelector("#signInGithub").addEventListener("click", signInGithub, false );
           document.querySelector("#signInFacebook").addEventListener("click", signInFacebook, false );
 
       }());
