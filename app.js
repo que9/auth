@@ -16,7 +16,8 @@ var passport        = require("passport"),
 dotenv.load();
 
 var routes = require('./routes/index'),
-    user   = require('./routes/user');
+    user   = require('./routes/user'),
+    profile= require('./routes/profile');
 
 // Configure Passport to use Auth0
 var strategy = new Auth0Strategy({
@@ -75,6 +76,7 @@ app.use( '/font-awesome', express.static(path.join(__dirname, 'node_modules/font
 app.use( '/fonts', express.static(path.join(__dirname, 'node_modules/font-awesome/fonts')));
 
 app.use('/', routes);
+app.use("/profile", profile);
 app.use('/user', user);
 
 /// catch 404 and forward to error handler

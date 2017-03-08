@@ -1,0 +1,389 @@
+  {
+ "provider": "facebook",
+ "displayName": "Gaurav Kumar Jha",
+ "id": "facebook|1128153847293731",
+ "name": {
+  "familyName": "Jha",
+  "givenName": "Gaurav Kumar"
+ },
+ "emails": [
+  {
+   "value": "gkjha009@gmail.com"
+  }
+ ],
+ "picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/13339708_903160259793092_9136263091379543632_n.jpg?oh=c785092c6ac86cce5f36e0cb4773323b&oe=592D2F0D",
+ "locale": "en_US",
+ "nickname": "gkjha009",
+ "gender": "male",
+ "identities": [
+  {
+   "provider": "facebook",
+   "user_id": "1128153847293731",
+   "connection": "facebook",
+   "isSocial": true
+  }
+ ],
+ "_json": {
+  "name": "Gaurav Kumar Jha",
+  "email": "gkjha009@gmail.com",
+  "given_name": "Gaurav Kumar",
+  "family_name": "Jha",
+  "gender": "male",
+  "picture": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/13339708_903160259793092_9136263091379543632_n.jpg?oh=c785092c6ac86cce5f36e0cb4773323b&oe=592D2F0D",
+  "picture_large": "https://scontent.xx.fbcdn.net/v/t1.0-1/13339708_903160259793092_9136263091379543632_n.jpg?oh=30b1bb4c14358771daf18afbf9ccc60d&oe=59656737",
+  "about": "I believe that there is no destination ,there are only ways to go.\r\nAs you have known so far i am just completing BCA but my dream is to be an IBMer or i want to be a part of Apple inc and  will be someday.Because i know , it does not matter who you are but what you are this thing matter.\r\nI am living lonely life since i born and now l like it most.\r\nI think that this open blue sky is to fly high so i wanna fly as mush i can.\r\nI am fascinated towards computer science i  have no girl friend in my life so love CS (computer science),and yes CS loves me too.\r\n\r\nMy basic computer skills are as follows--:\r\n\r\nA+,N+\r\nOS-DOS,Linux Ubuntu ,Windows 98,XP,Vista,Wins 7 \r\nLanguages--: c/c++,core java,HTML4,5,CSS2,3 ,java script,Jquery, SQl,Batch programming in DOS,PHP,Viual Basic.\r\nS/W known --: FoxPro,Office,GIMP and others",
+  "age_range": {
+   "min": 21
+  },
+  "birthday": "08/19/1990",
+  "context": {
+   "mutual_friends": {
+    "data": [],
+    "summary": {
+     "total_count": 327
+    }
+   },
+   "mutual_likes": {
+    "data": [
+     {
+      "name": "CNBC Awaaz",
+      "id": "151608504893523"
+     },
+     {
+      "name": "Simply Blood",
+      "id": "1573794982897815"
+     },
+     {
+      "name": "Jokes Corner",
+      "id": "243362695854391"
+     },
+     {
+      "name": "BuiltinNode.com",
+      "id": "629309477168856"
+     },
+     {
+      "name": "Amit Tandon",
+      "id": "283214628425629"
+     },
+     {
+      "name": "CodingHeroes",
+      "id": "624683980998885"
+     },
+     {
+      "name": "Udemy Coupons",
+      "id": "198524633861857"
+     },
+     {
+      "name": "Online courses all around the world",
+      "id": "1633962066884160"
+     },
+     {
+      "name": "Udemy Coupons Free",
+      "id": "439387699575890"
+     },
+     {
+      "name": "The White House",
+      "id": "1191441824276882"
+     },
+     {
+      "name": "Simplilearn",
+      "id": "1780313632222596"
+     },
+     {
+      "name": "Learning Center",
+      "id": "468925496483337"
+     },
+     {
+      "name": "Consciousness",
+      "id": "338855709826963"
+     },
+     {
+      "name": "Adobe Stock",
+      "id": "448259122008083"
+     },
+     {
+      "name": "Sarcasm",
+      "id": "1515871602074952"
+     },
+     {
+      "name": "Skipped Feelings",
+      "id": "974971692572593"
+     },
+     {
+      "name": "I hate myself, Cuze i love u so much",
+      "id": "667973593258478"
+     },
+     {
+      "name": "The Scribbled Stories",
+      "id": "1156243537722760"
+     },
+     {
+      "name": "True Love",
+      "id": "537969356244200"
+     },
+     {
+      "name": "Open Source Learning",
+      "id": "496019083862876"
+     },
+     {
+      "name": "English With Noel",
+      "id": "456756364432567"
+     },
+     {
+      "name": "ADGPI - Indian Army",
+      "id": "123788044484500"
+     },
+     {
+      "name": "Tripzolo.com",
+      "id": "203848346449052"
+     },
+     {
+      "name": "Circuit Breaker",
+      "id": "1560128030946687"
+     },
+     {
+      "name": "Formula Deck",
+      "id": "571699156260181"
+     }
+    ],
+    "paging": {
+     "cursors": {
+      "before": "MTUxNjA4NTA0ODkzNTIz",
+      "after": "NTcxNjk5MTU2MjYwMTgx"
+     },
+     "next": "https://graph.facebook.com/v2.8/dXNlcl9jb250ZAXh0OgGQBZAE7qUoBFxkTt8LwqM5bOCMQcqjDbIQVgpsZBZCnDKjWA1GzRFYdTnGxKet8ddNSwmZCZBUrhgG35HdRoMPwfMAwRj3Y0Rtsqa00rdzEZCaP7GosZD/mutual_likes?access_token=EAAOfLoJgwiwBAFA6TTfMPNKmDdop9qG6jPDOiLPbwvnfMEdN43uZACeRMdCOizyjffMXWA98bWnlkKiiVrTLYbZCPO4gqhMq44hXadUGkPjAKrssolDg39NWg7ZB2W66bugudPf4OoCYsSeXHdAm4vny4plRk6edgqvLZBBfYgZDZD&limit=25&after=NTcxNjk5MTU2MjYwMTgx"
+    },
+    "summary": {
+     "total_count": 100
+    }
+   },
+   "id": "dXNlcl9jb250ZAXh0OgGQzoWTA1bFLXUBAzD1ptkcRi1DA48sfdszaQhrEFbxN3b3ucuIyIQkZAIEaXy8p9tqzHxPQLWrEKfjFVVmXavagPqZBvXWtP0IruouXPmyVZCJZBYZD"
+  },
+  "cover": {
+   "id": "606535009455620",
+   "offset_y": 44,
+   "source": "https://scontent.xx.fbcdn.net/v/t31.0-8/q89/s720x720/1487974_606535009455620_4930112559186678771_o.jpg?oh=adae65abfd2de16b361821afd3ebd5dc&oe=59690A36"
+  },
+  "devices": [
+   {
+    "os": "Android"
+   }
+  ],
+  "updated_time": "2017-03-06T00:47:54+0000",
+  "education": [
+   {
+    "school": {
+     "id": "470914466393330",
+     "name": "Sri Rghunandan Enter College"
+    },
+    "type": "High School",
+    "year": {
+     "id": "141778012509913",
+     "name": "2008"
+    },
+    "id": "697437360365384"
+   },
+   {
+    "school": {
+     "id": "1427157510831747",
+     "name": "SR Enter college"
+    },
+    "type": "High School",
+    "year": {
+     "id": "136328419721520",
+     "name": "2009"
+    },
+    "id": "107654022677057"
+   },
+   {
+    "concentration": [
+     {
+      "id": "190891724264674",
+      "name": "Programing Languages"
+     },
+     {
+      "id": "1542005729380929",
+      "name": "Skill Sets"
+     }
+    ],
+    "school": {
+     "id": "143264592351860",
+     "name": "IIMT College Aligarh"
+    },
+    "type": "College",
+    "year": {
+     "id": "136328419721520",
+     "name": "2009"
+    },
+    "id": "107598732682586"
+   }
+  ],
+  "favorite_athletes": [
+   {
+    "id": "20242388857",
+    "name": "Usain Bolt"
+   },
+   {
+    "id": "105849162781557",
+    "name": "Suresh Raina"
+   },
+   {
+    "id": "344128252278047",
+    "name": "Sachin Tendulkar"
+   },
+   {
+    "id": "64822581025",
+    "name": "Rafa Nadal"
+   },
+   {
+    "id": "65920772679",
+    "name": "Maria Sharapova"
+   },
+   {
+    "id": "108207439203742",
+    "name": "Gary Kirsten"
+   },
+   {
+    "id": "358607327652836",
+    "name": "Virat Kohli"
+   },
+   {
+    "id": "100787839962234",
+    "name": "Saina Nehwal"
+   },
+   {
+    "id": "160605194088444",
+    "name": "MC Mary Kom"
+   },
+   {
+    "id": "326546224099154",
+    "name": "Virat Kohli"
+   },
+   {
+    "id": "710158962327958",
+    "name": "I was alive when Sachin R Tendulkar played 200th test match"
+   },
+   {
+    "id": "165766026823945",
+    "name": "Walker Wilkerson"
+   }
+  ],
+  "favorite_teams": [
+   {
+    "id": "596276487049934",
+    "name": "Bodybuilding & Fitness Motivation"
+   },
+   {
+    "id": "190313434323691",
+    "name": "Indian Cricket Team"
+   }
+  ],
+  "hometown": {
+   "id": "108505579174201",
+   "name": "Aligarh"
+  },
+  "inspirational_people": [
+   {
+    "id": "216311481960",
+    "name": "Bill Gates"
+   },
+   {
+    "id": "436826960480",
+    "name": "Infosys"
+   },
+   {
+    "id": "168597536563870",
+    "name": "IBM"
+   }
+  ],
+  "installed": true,
+  "is_verified": false,
+  "link": "https://www.facebook.com/app_scoped_user_id/1128153847293731/",
+  "locale": "en_US",
+  "location": {
+   "id": "106517799384578",
+   "name": "New Delhi, India"
+  },
+  "name_format": "{first} {last}",
+  "quotes": "1.A kite fly against, but not with the wind.\r\n2.The best way to predict the feature is to create it.",
+  "relationship_status": "Single",
+  "timezone": 5.5,
+  "third_party_id": "4yGdMpGZqqJ2BgCYCmnIWclxh6k",
+  "verified": true,
+  "work": [
+   {
+    "description": "In love with JS, Angular, NodeJS and MongoDB ",
+    "employer": {
+     "id": "113464341997400",
+     "name": "Tavant Technologies"
+    },
+    "location": {
+     "id": "130646063637019",
+     "name": "Noida, India"
+    },
+    "position": {
+     "id": "110265725662722",
+     "name": "Senior Software Engineer"
+    },
+    "start_date": "2014-09-29",
+    "id": "697431687032618"
+   },
+   {
+    "description": "I got familiar with true power of JavaScript and best design patters used in software development. I developed a great standard chess game in JS on my own.",
+    "end_date": "2014-09-22",
+    "employer": {
+     "id": "272943102745384",
+     "name": "Prospus"
+    },
+    "location": {
+     "id": "130646063637019",
+     "name": "Noida, India"
+    },
+    "position": {
+     "id": "138145452891697",
+     "name": "Front End Developer"
+    },
+    "start_date": "2014-02-17",
+    "id": "697438693698584"
+   },
+   {
+    "description": "Worked HTML,CSS,PS,JS,jQuery etc",
+    "end_date": "2014-02-15",
+    "employer": {
+     "id": "142887949071257",
+     "name": "SPcits"
+    },
+    "location": {
+     "id": "106517799384578",
+     "name": "New Delhi, India"
+    },
+    "position": {
+     "id": "137468219620206",
+     "name": "Web Designer & Developer"
+    },
+    "start_date": "2012-02-22",
+    "id": "373876589388131"
+   }
+  ],
+  "nickname": "gkjha009",
+  "country": "India",
+  "user_metadata": {
+   "color": null
+  },
+  "email_verified": true,
+  "clientID": "xuvivl2KFXKoXYBTw3gsueVklLUudvEH",
+  "updated_at": "2017-03-08T13:27:07.802Z",
+  "user_id": "facebook|1128153847293731",
+  "identities": [
+   {
+    "provider": "facebook",
+    "user_id": "1128153847293731",
+    "connection": "facebook",
+    "isSocial": true
+   }
+  ],
+  "created_at": "2017-03-07T16:41:35.351Z",
+  "sub": "facebook|1128153847293731"
+ },
+ "_raw": "{\"name\":\"Gaurav Kumar Jha\",\"email\":\"gkjha009@gmail.com\",\"given_name\":\"Gaurav Kumar\",\"family_name\":\"Jha\",\"gender\":\"male\",\"picture\":\"https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/13339708_903160259793092_9136263091379543632_n.jpg?oh=c785092c6ac86cce5f36e0cb4773323b&oe=592D2F0D\",\"picture_large\":\"https://scontent.xx.fbcdn.net/v/t1.0-1/13339708_903160259793092_9136263091379543632_n.jpg?oh=30b1bb4c14358771daf18afbf9ccc60d&oe=59656737\",\"about\":\"I believe that there is no destination ,there are only ways to go.\\r\\nAs you have known so far i am just completing BCA but my dream is to be an IBMer or i want to be a part of Apple inc and  will be someday.Because i know , it does not matter who you are but what you are this thing matter.\\r\\nI am living lonely life since i born and now l like it most.\\r\\nI think that this open blue sky is to fly high so i wanna fly as mush i can.\\r\\nI am fascinated towards computer science i  have no girl friend in my life so love CS (computer science),and yes CS loves me too.\\r\\n\\r\\nMy basic computer skills are as follows--:\\r\\n\\r\\nA+,N+\\r\\nOS-DOS,Linux Ubuntu ,Windows 98,XP,Vista,Wins 7 \\r\\nLanguages--: c/c++,core java,HTML4,5,CSS2,3 ,java script,Jquery, SQl,Batch programming in DOS,PHP,Viual Basic.\\r\\nS/W known --: FoxPro,Office,GIMP and others\",\"age_range\":{\"min\":21},\"birthday\":\"08/19/1990\",\"context\":{\"mutual_friends\":{\"data\":[],\"summary\":{\"total_count\":327}},\"mutual_likes\":{\"data\":[{\"name\":\"CNBC Awaaz\",\"id\":\"151608504893523\"},{\"name\":\"Simply Blood\",\"id\":\"1573794982897815\"},{\"name\":\"Jokes Corner\",\"id\":\"243362695854391\"},{\"name\":\"BuiltinNode.com\",\"id\":\"629309477168856\"},{\"name\":\"Amit Tandon\",\"id\":\"283214628425629\"},{\"name\":\"CodingHeroes\",\"id\":\"624683980998885\"},{\"name\":\"Udemy Coupons\",\"id\":\"198524633861857\"},{\"name\":\"Online courses all around the world\",\"id\":\"1633962066884160\"},{\"name\":\"Udemy Coupons Free\",\"id\":\"439387699575890\"},{\"name\":\"The White House\",\"id\":\"1191441824276882\"},{\"name\":\"Simplilearn\",\"id\":\"1780313632222596\"},{\"name\":\"Learning Center\",\"id\":\"468925496483337\"},{\"name\":\"Consciousness\",\"id\":\"338855709826963\"},{\"name\":\"Adobe Stock\",\"id\":\"448259122008083\"},{\"name\":\"Sarcasm\",\"id\":\"1515871602074952\"},{\"name\":\"Skipped Feelings\",\"id\":\"974971692572593\"},{\"name\":\"I hate myself, Cuze i love u so much\",\"id\":\"667973593258478\"},{\"name\":\"The Scribbled Stories\",\"id\":\"1156243537722760\"},{\"name\":\"True Love\",\"id\":\"537969356244200\"},{\"name\":\"Open Source Learning\",\"id\":\"496019083862876\"},{\"name\":\"English With Noel\",\"id\":\"456756364432567\"},{\"name\":\"ADGPI - Indian Army\",\"id\":\"123788044484500\"},{\"name\":\"Tripzolo.com\",\"id\":\"203848346449052\"},{\"name\":\"Circuit Breaker\",\"id\":\"1560128030946687\"},{\"name\":\"Formula Deck\",\"id\":\"571699156260181\"}],\"paging\":{\"cursors\":{\"before\":\"MTUxNjA4NTA0ODkzNTIz\",\"after\":\"NTcxNjk5MTU2MjYwMTgx\"},\"next\":\"https://graph.facebook.com/v2.8/dXNlcl9jb250ZAXh0OgGQBZAE7qUoBFxkTt8LwqM5bOCMQcqjDbIQVgpsZBZCnDKjWA1GzRFYdTnGxKet8ddNSwmZCZBUrhgG35HdRoMPwfMAwRj3Y0Rtsqa00rdzEZCaP7GosZD/mutual_likes?access_token=EAAOfLoJgwiwBAFA6TTfMPNKmDdop9qG6jPDOiLPbwvnfMEdN43uZACeRMdCOizyjffMXWA98bWnlkKiiVrTLYbZCPO4gqhMq44hXadUGkPjAKrssolDg39NWg7ZB2W66bugudPf4OoCYsSeXHdAm4vny4plRk6edgqvLZBBfYgZDZD&limit=25&after=NTcxNjk5MTU2MjYwMTgx\"},\"summary\":{\"total_count\":100}},\"id\":\"dXNlcl9jb250ZAXh0OgGQzoWTA1bFLXUBAzD1ptkcRi1DA48sfdszaQhrEFbxN3b3ucuIyIQkZAIEaXy8p9tqzHxPQLWrEKfjFVVmXavagPqZBvXWtP0IruouXPmyVZCJZBYZD\"},\"cover\":{\"id\":\"606535009455620\",\"offset_y\":44,\"source\":\"https://scontent.xx.fbcdn.net/v/t31.0-8/q89/s720x720/1487974_606535009455620_4930112559186678771_o.jpg?oh=adae65abfd2de16b361821afd3ebd5dc&oe=59690A36\"},\"devices\":[{\"os\":\"Android\"}],\"updated_time\":\"2017-03-06T00:47:54+0000\",\"education\":[{\"school\":{\"id\":\"470914466393330\",\"name\":\"Sri Rghunandan Enter College\"},\"type\":\"High School\",\"year\":{\"id\":\"141778012509913\",\"name\":\"2008\"},\"id\":\"697437360365384\"},{\"school\":{\"id\":\"1427157510831747\",\"name\":\"SR Enter college\"},\"type\":\"High School\",\"year\":{\"id\":\"136328419721520\",\"name\":\"2009\"},\"id\":\"107654022677057\"},{\"concentration\":[{\"id\":\"190891724264674\",\"name\":\"Programing Languages\"},{\"id\":\"1542005729380929\",\"name\":\"Skill Sets\"}],\"school\":{\"id\":\"143264592351860\",\"name\":\"IIMT College Aligarh\"},\"type\":\"College\",\"year\":{\"id\":\"136328419721520\",\"name\":\"2009\"},\"id\":\"107598732682586\"}],\"favorite_athletes\":[{\"id\":\"20242388857\",\"name\":\"Usain Bolt\"},{\"id\":\"105849162781557\",\"name\":\"Suresh Raina\"},{\"id\":\"344128252278047\",\"name\":\"Sachin Tendulkar\"},{\"id\":\"64822581025\",\"name\":\"Rafa Nadal\"},{\"id\":\"65920772679\",\"name\":\"Maria Sharapova\"},{\"id\":\"108207439203742\",\"name\":\"Gary Kirsten\"},{\"id\":\"358607327652836\",\"name\":\"Virat Kohli\"},{\"id\":\"100787839962234\",\"name\":\"Saina Nehwal\"},{\"id\":\"160605194088444\",\"name\":\"MC Mary Kom\"},{\"id\":\"326546224099154\",\"name\":\"Virat Kohli\"},{\"id\":\"710158962327958\",\"name\":\"I was alive when Sachin R Tendulkar played 200th test match\"},{\"id\":\"165766026823945\",\"name\":\"Walker Wilkerson\"}],\"favorite_teams\":[{\"id\":\"596276487049934\",\"name\":\"Bodybuilding & Fitness Motivation\"},{\"id\":\"190313434323691\",\"name\":\"Indian Cricket Team\"}],\"hometown\":{\"id\":\"108505579174201\",\"name\":\"Aligarh\"},\"inspirational_people\":[{\"id\":\"216311481960\",\"name\":\"Bill Gates\"},{\"id\":\"436826960480\",\"name\":\"Infosys\"},{\"id\":\"168597536563870\",\"name\":\"IBM\"}],\"installed\":true,\"is_verified\":false,\"link\":\"https://www.facebook.com/app_scoped_user_id/1128153847293731/\",\"locale\":\"en_US\",\"location\":{\"id\":\"106517799384578\",\"name\":\"New Delhi, India\"},\"name_format\":\"{first} {last}\",\"quotes\":\"1.A kite fly against, but not with the wind.\\r\\n2.The best way to predict the feature is to create it.\",\"relationship_status\":\"Single\",\"timezone\":5.5,\"third_party_id\":\"4yGdMpGZqqJ2BgCYCmnIWclxh6k\",\"verified\":true,\"work\":[{\"description\":\"In love with JS, Angular, NodeJS and MongoDB \",\"employer\":{\"id\":\"113464341997400\",\"name\":\"Tavant Technologies\"},\"location\":{\"id\":\"130646063637019\",\"name\":\"Noida, India\"},\"position\":{\"id\":\"110265725662722\",\"name\":\"Senior Software Engineer\"},\"start_date\":\"2014-09-29\",\"id\":\"697431687032618\"},{\"description\":\"I got familiar with true power of JavaScript and best design patters used in software development. I developed a great standard chess game in JS on my own.\",\"end_date\":\"2014-09-22\",\"employer\":{\"id\":\"272943102745384\",\"name\":\"Prospus\"},\"location\":{\"id\":\"130646063637019\",\"name\":\"Noida, India\"},\"position\":{\"id\":\"138145452891697\",\"name\":\"Front End Developer\"},\"start_date\":\"2014-02-17\",\"id\":\"697438693698584\"},{\"description\":\"Worked HTML,CSS,PS,JS,jQuery etc\",\"end_date\":\"2014-02-15\",\"employer\":{\"id\":\"142887949071257\",\"name\":\"SPcits\"},\"location\":{\"id\":\"106517799384578\",\"name\":\"New Delhi, India\"},\"position\":{\"id\":\"137468219620206\",\"name\":\"Web Designer & Developer\"},\"start_date\":\"2012-02-22\",\"id\":\"373876589388131\"}],\"nickname\":\"gkjha009\",\"country\":\"India\",\"user_metadata\":{\"color\":null},\"email_verified\":true,\"clientID\":\"xuvivl2KFXKoXYBTw3gsueVklLUudvEH\",\"updated_at\":\"2017-03-08T13:27:07.802Z\",\"user_id\":\"facebook|1128153847293731\",\"identities\":[{\"provider\":\"facebook\",\"user_id\":\"1128153847293731\",\"connection\":\"facebook\",\"isSocial\":true}],\"created_at\":\"2017-03-07T16:41:35.351Z\",\"sub\":\"facebook|1128153847293731\"}"
+}

@@ -1,0 +1,17 @@
+<%- include partials/header.ejs %>
+  
+  <div class="jumbotron">
+    <img src="<%= user.picture %>" alt="Avatar"/>    
+    <h3>Welcome <i><%= user.nickname %></i></h3> 
+    <a  class="btn btn-primary" href="/logout">Logout</a>
+      
+    <br/><br/>
+    <h3>User profile</h3>
+    <pre>
+    	<%= userProfile %>
+    </pre>
+  </div>
+  <%- include partials/footer.ejs %>  
+  
+  </body>
+</html>

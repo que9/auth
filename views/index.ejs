@@ -1,8 +1,4 @@
-<%- include partials/header.ejs %>
-    <div class="container">
-      <div class="header clearfix">
-        <h3><img src="images/blackRock.png" alt="BlackRock Logo" /></h3>
-      </div>
+<%- include partials/header.ejs %>    
 
       <div class="jumbotron">
           <h1 class="display-4">Social Authentication App</h1>
@@ -24,13 +20,19 @@
               <button class="btn btn-social btn-facebook"" id="signInFacebook">
                 <span class="fa fa-facebook"></span>Facebook
               </button>
-            </div>            
+            </div>   
+            <br>
+            <div>
+              <a class="btn btn-social btn-facebook"" id="signInFacebook" href="/user/1">
+                <span class="fa fa-rocket"></span>User 1
+              </a>
+              <a class="btn btn-social btn-facebook"" id="signInFacebook" href="/user/2">
+                <span class="fa fa-rocket"></span>User 2
+              </a>
+            </div>         
           </p>
       </div>
     <%- include partials/footer.ejs %>      
-    </div> 
-    <!-- /container -->
-
     
 
     <script src="https://cdn.auth0.com/js/lock/10.12.1/lock.min.js"></script>
